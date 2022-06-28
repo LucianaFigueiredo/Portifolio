@@ -12,7 +12,7 @@ body{
 .header-wrapper{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg,#363636,#4F4F4F,#696969,#708090);
+    background: linear-gradient(-45deg, #5e0878, #085078,#4ca59b, #1fa194);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ h2{
 }
 
 a:hover  {
-    color: #4F4F4F;
+    color: #5e0878;
     background-color: #fff;
 }
 
@@ -152,7 +152,7 @@ a:hover  {
 
 .menu-itens ul li a {
     margin:10px 0;
-    color: #4F4F4F;
+    color: #5e0878;
     text-decoration: none;
     text-transform: capitalize;
     letter-spacing: 4px;
@@ -163,7 +163,7 @@ a:hover  {
 
 #toggle:checked + .checkbox  .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color:#4F4F4F ;
+    background-color:#5e0878 ;
     top:47px;
 }
 
@@ -176,7 +176,7 @@ a:hover  {
 
 #toggle:checked + .checkbox  .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #4F4F4F;
+    background-color: #5e0878;
     top:48px;
 }
 
@@ -294,7 +294,7 @@ a:hover  {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #363636;
+    background-color: #5e0878;
 }
 
 /*RESPONSIVO*/
